@@ -23,4 +23,5 @@ Apply Allergo foundation model  and other popular foundation models for differen
 
 **4. Premilinary results**
    - Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
+   ![Lattice parameter prediction from MACE](./images/my_plot.png)
    - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
