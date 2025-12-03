@@ -61,11 +61,11 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 │   ├── processed/          # Working on
 │   └── benchmarks/         # DFT ground truths
 ├── src/
-│   ├── training/           # LoRA fine-tuning logic & training loops
-│   ├── inference/          # Unified ASE wrappers for UMA, MACE, PET-MAD
+│   ├── MACE-test           
+│   ├── UMA-test
+│   ├── Nequip-test      
 │   └── utils/              # Data normalization and loading utilities
 ├── docs/                   # Tutorials and theoretical background
-├── tests/                  # Unit and integration tests for CI/CD
 └── README.md               # Project documentation
 ```
 
@@ -74,12 +74,12 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 <table>
   <tr>
     <td align="center">
-      <img src="./MACE-test/Ni_PE_vs_lattice.png" alt="MACE Model" width="400"/>
+      <img src="./result/Ni_PE_vs_lattice-mace.png" alt="MACE Model" width="400"/>
       <br>
       <em>MACE Model Prediction</em>
     </td>
     <td align="center">
-      <img src="./UMA-test/Ni_PE_vs_lattice.png" alt="UMA Model" width="400"/>
+      <img src="./result/Ni_PE_vs_lattice-uma.png" alt="UMA Model" width="400"/>
       <br>
       <em>UMA Model Prediction</em>
     </td>
@@ -87,6 +87,6 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 </table>
 
 - Potentoal energy variation with volume predicion with Nequip model for Ni FCC unit structure
-![](./Nequip-test/energy_volume_Ni.png)
+![](./result/energy_volume_Ni-nequip.png)
 
 - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
