@@ -76,7 +76,7 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 └── README.md               # Project documentation
 ```
 
-## 4. Preliminary results
+## 5. Preliminary results
 - Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
 <table>
   <tr>
@@ -98,7 +98,7 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 
 - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
 
-## 5. Future work and next steps
+## 6. Future work and next steps
 - Calcualate remaining properties for Ni and tobermorite structures.
 - Validate models results with DFT/experimental results and do comparative analysis between models.
 - Apply [LoRA](https://arxiv.org/abs/2106.09685)/[QLoRA](https://arxiv.org/abs/2305.14314) fine tuning methods for one or two foundation models for specific tasks.
