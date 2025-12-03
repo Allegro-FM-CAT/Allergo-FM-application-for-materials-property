@@ -40,11 +40,11 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 ## 2. Project goal 
 ### **$\color{red}{\text{What is the goal?}}$**
 
-1. **Characterization:** Design and characterize Ni FCC structures and Ni-based alloy systems, analyzing the effects of Ni percentage on structural stability.
+1. **Characterization:** Characterize Ni FCC structures and Ni-based alloy systems, analyzing the effects of Ni percentage on structural stability.
 
-2. **Benchmarking:** Validate model predictions (Allegro-FM, UMA, MACE, PET-MAD) against Density Functional Theory (DFT) data for both alloys and complex Tobermorite structures.
+2. **Benchmarking:** Validate model predictions (Allegro-FM, UMA, MACE, PET-MAD) against Density Functional Theory (DFT) data for both alloys and bulk materials with complex structure.
 
-3. **Property Analysis:** Calculate and compare fundamental properties via the kn kernel:
+3. **Property Analysis:** Calculate and compare fundamental properties:
    - Lattice parameters and structures
    - Radial Distribution Functions (RDF) and bond/angle Distributions
    - Elastic constants
@@ -56,11 +56,11 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 ## 3. Methodology 
 ### **$\color{red}{\text{What we are using and What's special?}}$**
 
-   - Allegro-FM integration with [Atomic Simulation Environment](https://nequip.readthedocs.io/en/latest/integrations/ase.html): Use ASE package to build the FCC Ni structure and Ni-based alloy systems.
-   - Data Preparation for Fine-Tuning: Gather dataset of Ni structures and their corresponding energies and forces to use for fine-tuning.
-   - Model Fine-tuning: Load pre-trained Allegro-FM with 89 elements, then fine-tune the model using the prepared Ni-based alloy dataset to optimize for this particular material.
-   - MD runs: Run [large-scale molecular dynamics simulations](https://www.lammps.org/#gsc.tab=0). Also simulate the effects of grain boudany, such as changes in lattice structure or stacking fault energy.
-   - Result Analysis: Use ASE tools for preliminary analysis, then use tools like [phonopy](https://phonopy.github.io/phonopy/phonopy-module.html) or [mdapy](https://mdapy.readthedocs.io/en/latest/) for validation and characterization purpose. 
+   - Use ASE and Fairchem for python API.
+   - Data Preparation for Fine-Tuning: Gather training/validation/test dataset and their corresponding energies and forces to use for fine-tuning from DFT(VASP) in this case.
+   - Model Fine-tuning: Load pre-trained models, then fine-tune the model using the prepared dataset to optimize for this particular material.
+   - MD runs: Run [large-scale molecular dynamics simulations](https://www.lammps.org/#gsc.tab=0). For Ni and metal alloys, also simulate the effects of grain boudany, such as changes in lattice structure or stacking fault energy.
+   - Result Analysis: Complete the Property Analysis.
 
 ## 4. Repository Architecture
 
@@ -68,15 +68,17 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 Allegro-FM-application-for-materials-property/
 ├── data/             # input  raw datasets 
 ├── result/           # output plots
-├── src/              # source code used in different models
+├── src/              # source code used in different models and test Finetune
 │ ├── MACE-test/  
 │ ├── UMA-test/ 
-│ ├── Nequip-test/ 
+│ ├── Nequip-test/
+│ ├── Finetune/
 ├── CITATION.cff      # citation metadata
 ├── LICENSE           # MIT License
 ├── requirements.txt  # python dependencies
 └── README.md         # project documentation
 ```
+(Important message: The finetune script here is CPU-only version with smaller dataset and batch size for TEST PURPOSE ONLY!)
 
 ## 5. Preliminary results
 - Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
