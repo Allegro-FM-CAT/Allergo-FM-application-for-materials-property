@@ -120,9 +120,8 @@ Allegro-FM-application-for-materials-property/
   </tr>
 </table>
 
-<p align="center">
-   <img src="./result/tobe-opt.mov" alt="mov" width="400"/>
-</p>
+https://github.com/user-attachments/assets/a25de54a-6c89-42fa-9da4-0a1371a890e7
+
 
 
 ### Finetune preliminary study
