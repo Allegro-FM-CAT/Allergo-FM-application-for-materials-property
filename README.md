@@ -19,12 +19,10 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
 - Specialization: Fine-tuning allows us to take a more general model and optimize it for a specific system.
   For example:
   - **Thermodynamic Systems:** Recovering the exact energy minima required for Ni-based superalloy stability and phase boundaries.
-
     <p align="center">
       <img src="./data/Ni.png" alt="Ni.xyz" width="400"/>
     </p>
   - **Disordered Systems:** Capturing the complex geometries of semi-amorphous Calcium-Silicate-Hydrate (Tobermorite).
-
     <p align="center">
       <img src="./data/tobe-small.png" alt="tobermorite" width="400"/>
     </p>
@@ -98,7 +96,7 @@ Allegro-FM-application-for-materials-property/
 
 - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
 
-## 6. Future work and next steps
+## 6. Future work
 - Calcualate remaining properties for Ni and tobermorite structures.
 - Validate models results with DFT/experimental results and do comparative analysis between models.
 - Apply [LoRA](https://arxiv.org/abs/2106.09685)/[QLoRA](https://arxiv.org/abs/2305.14314) fine tuning methods for one or two foundation models for specific tasks.
