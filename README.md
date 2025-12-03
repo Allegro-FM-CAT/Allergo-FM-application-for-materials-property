@@ -53,6 +53,22 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
    - MD runs: Run [large-scale molecular dynamics simulations](https://www.lammps.org/#gsc.tab=0). Also simulate the effects of grain boudany, such as changes in lattice structure or stacking fault energy.
    - Result Analysis: Use ASE tools for preliminary analysis, then use tools like [phonopy](https://phonopy.github.io/phonopy/phonopy-module.html) or [mdapy](https://mdapy.readthedocs.io/en/latest/) for validation and characterization purpose. 
 
+## 4. Repository Architecture
+
+```
+├── data/
+│   ├── raw/                # Inputs
+│   ├── processed/          # Working on
+│   └── benchmarks/         # DFT ground truths
+├── src/
+│   ├── training/           # LoRA fine-tuning logic & training loops
+│   ├── inference/          # Unified ASE wrappers for UMA, MACE, PET-MAD
+│   └── utils/              # Data normalization and loading utilities
+├── docs/                   # Tutorials and theoretical background
+├── tests/                  # Unit and integration tests for CI/CD
+└── README.md               # Project documentation
+```
+
 ## 4. Preliminary results
 - Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
 <table>
