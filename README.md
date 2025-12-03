@@ -18,7 +18,7 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
 ### **$\color{red}{\text{Why we need?}}$**
 - Specialization: Fine-tuning allows us to take a more general model and optimize it for a specific system.
   For example:
-  - **Bulk Materials:** Understanding of complex structure of Hexagonal Manganite.
+  - **Bulk Materials:** Understanding of complex structure of multiferroic materials, like Hexagonal Manganite YMnO3.
     <p align="center">
       <img src="./data/YMnO3.png" alt="ymno3.xyz" width="400"/>
     </p>
