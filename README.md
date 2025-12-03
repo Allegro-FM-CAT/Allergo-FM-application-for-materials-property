@@ -16,13 +16,18 @@ Foundation Models(FMs) like **MACE-MP-0** and **Allegro-FM** are universal, pre-
 The practical utility of an uMLIP depends on how efficiently the model can be specialized for a target system. We propose that the PET architecture combined with parameter-efficient Low-Rank Adaptation (**LoRA**) enables rapid fine-tuning to near-quantum accuracy. In this work, we will first rigorously benchmark accuracy-efficiency trade-offs among representative foundation models and traditional DFT calculations.
 
 ### **$\color{red}{\text{Why we need?}}$**
-
 - Specialization: Fine-tuning allows us to take a more general model and optimize it for a specific system.
   For example:
-  - **Thermodynamic Systems :** Recovering the exact energy minima required for Ni-based superalloy stability and phase boundaries.
-    ![Ni.xyz](./data/Ni.png)
-  - **Disordered Systems :** Capturing the complex geometries of semi-amorphous Calcium-Silicate-Hydrate (Tobermorite).
-    ![tobermorite](./data/tobe-small.png)
+  - **Thermodynamic Systems:** Recovering the exact energy minima required for Ni-based superalloy stability and phase boundaries.
+
+    <p align="center">
+      <img src="./data/Ni.png" alt="Ni.xyz" width="400"/>
+    </p>
+  - **Disordered Systems:** Capturing the complex geometries of semi-amorphous Calcium-Silicate-Hydrate (Tobermorite).
+
+    <p align="center">
+      <img src="./data/tobe-small.png" alt="tobermorite" width="400"/>
+    </p>
 
 - Achieving Near-Quantum Accuracy: While universal models are good, but they may not match the precision of *ab initio* methods for every structure. The project proposes using techniques like LoRA to rapidly fine-tune the model to achieve "near-quantum accuracy" relative to DFT data.
 
