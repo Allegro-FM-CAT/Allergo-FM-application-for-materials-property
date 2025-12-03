@@ -5,7 +5,7 @@
 
 
 ## 1. Project Abstract 
-### **$\color{cyan}{\text{What we are working on?}}$**
+### **$\color{red}{\text{What we are working on?}}$**
 
 Universal Machine Learning Interatomic Potentials (**uMLIPs**) have fundamentally changed the evolution of computational materials science. It has the feature of both *ab initio* accuracy from traditional method like Density Functional Theory (**DFT**) and the efficiency required for large scale Molecular Dynamics (**MD**). 
 
@@ -31,7 +31,7 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
 Essentially, fine-tuning bridges the gap between the efficiency required for large scale MD and the high accuracy needed for valid material property characterization.
 
 ## 2. Project goal 
-### **$\color{cyan}{\text{What is the goal?}}$**
+### **$\color{red}{\text{What is the goal?}}$**
 
 1. **Characterization:** Design and characterize Ni FCC structures and Ni-based alloy systems, analyzing the effects of Ni percentage on structural stability.
 
@@ -47,7 +47,7 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 4. **Large-Scale Simulation:** Simulate phenomena at a larger scale, such as defect formation energies and favorable adsorption sites, using the fine-tuned potentials.
      
 ## 3. Methodology 
-### **$\color{cyan}{\text{What we are using and What's special?}}$**
+### **$\color{red}{\text{What we are using and What's special?}}$**
 
    - Allegro-FM integration with [Atomic Simulation Environment](https://nequip.readthedocs.io/en/latest/integrations/ase.html): Use ASE package to build the FCC Ni structure and Ni-based alloy systems.
    - Data Preparation for Fine-Tuning: Gather dataset of Ni structures and their corresponding energies and forces to use for fine-tuning.
