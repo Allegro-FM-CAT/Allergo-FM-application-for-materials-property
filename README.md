@@ -164,10 +164,9 @@ https://github.com/user-attachments/assets/a25de54a-6c89-42fa-9da4-0a1371a890e7
 </table>
 
 ## 6. Working Plan
-- Move to GPU
-- 
+- Approved by Director's Discretionary Allocation Award from ALCF for computing time and moving to GPU.
 - LoRA adaptation: inserts adapter modules, replaces Linear layers, freezes base parameters, and restricts the optimizer to adapter parameters
   [LoRA](https://arxiv.org/abs/2106.09685)/[QLoRA](https://arxiv.org/abs/2305.14314) fine tuning methods.
-- 
+- Unconstrained Model of PET-MAD.
 
 
