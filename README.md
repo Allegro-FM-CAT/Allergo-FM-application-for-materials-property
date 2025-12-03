@@ -37,7 +37,8 @@ Apply Allergo foundation model  and other popular foundation models for differen
     </td>
   </tr>
 </table>
-- Potentoal Energy variation with volume predicion with Nequip model for Ni FCC unit structure
+
+- Potentoal energy variation with volume predicion with Nequip model for Ni FCC unit structure
 ![](./Nequip-test/energy_volume_Ni.png)
 
 - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
