@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Runner for the `tobe-small.xyz` molecular test using UMA model.
-
-Defaults target the `tobe-small.xyz` file in the workspace root and the model
-`uma-s-1.pt`. The script does a quick relax followed by a short MD and writes
+"""The script does a quick relax followed by a short MD and writes
 out trajectories and the final structure.
 """
 
