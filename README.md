@@ -128,6 +128,7 @@ https://github.com/user-attachments/assets/a25de54a-6c89-42fa-9da4-0a1371a890e7
 
 (NOTE: Preliminary study runs on CPU with smaller dataset for now)
 100 training samples, 20 validation from vasprun.xml from VASP non-collinear simulation on YMno3 2x2x1 120 atoms structure
+Using weight decaying AdamW optimizer in this example.
 
 | Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth |
 | :--- | :--- | :--- | :--- |
@@ -163,9 +164,11 @@ https://github.com/user-attachments/assets/a25de54a-6c89-42fa-9da4-0a1371a890e7
   </tr>
 </table>
 
-## 6. Future work
-- Calcualate remaining properties for Ni and tobermorite structures.
-- Validate models results with DFT/experimental results and do comparative analysis between models.
-- Apply [LoRA](https://arxiv.org/abs/2106.09685)/[QLoRA](https://arxiv.org/abs/2305.14314) fine tuning methods for one or two foundation models for specific tasks.
+## 6. Working Plan
+- Move to GPU
+- 
+- LoRA adaptation: inserts adapter modules, replaces Linear layers, freezes base parameters, and restricts the optimizer to adapter parameters
+  [LoRA](https://arxiv.org/abs/2106.09685)/[QLoRA](https://arxiv.org/abs/2305.14314) fine tuning methods.
+- 
 
 
