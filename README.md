@@ -13,7 +13,7 @@ Foundation Models(FMs) like **MACE-MP-0** and **Allegro-FM** are universal, pre-
    - This project aims to use foundation model for materials research and molecular dynamics simulations.
    - We aims at exploring [Allegro-FM](https://arxiv.org/abs/2502.06073), [Meta Uma universal model](https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/), [MACE model](https://github.com/ACEsuit/mace-foundations) and [PET-MAD model](https://github.com/lab-cosmo/pet-mad) to benchmark properties of different materials.
 
-The practical utility of an uMLIP depends on how efficiently the model can be specialized for a target system. We propose that the PET architecture combined with parameter-efficient Low-Rank Adaptation (**LoRA**) enables rapid fine-tuning to near-quantum accuracy. In this work, we will first rigorously benchmark accuracy-efficiency trade-offs among representative foundation models and traditional DFT calculations.
+The practical utility of an uMLIP depends on how efficiently the model can be specialized for a target system. We propose that the [PET](https://arxiv.org/abs/2305.19302) architecture combined with parameter-efficient [Low-Rank Adaptation (**LoRA**)](https://arxiv.org/abs/2106.09685) enables rapid fine-tuning to near-quantum accuracy. In this work, we will first rigorously benchmark accuracy-efficiency trade-offs among representative foundation models and traditional DFT calculations.
 
 ### **$\color{red}{\text{Why we need?}}$**
 - Specialization: Fine-tuning allows us to take a more general model and optimize it for a specific system.
