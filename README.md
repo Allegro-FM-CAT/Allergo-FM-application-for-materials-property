@@ -96,6 +96,6 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 ## 5. Future work and next steps
 - Calcualate remaining properties for Ni and tobermorite structures.
 - Validate models results with DFT/experimental results and do comparative analysis between models.
-- Apply [LoRA](https://arxiv.org/abs/2106.09685) fine tuning methodfor one or two foundation models for specific tasks.
+- Apply [LoRA](https://arxiv.org/abs/2106.09685)/[QLoRA](https://arxiv.org/abs/2305.14314) fine tuning methods for one or two foundation models for specific tasks.
 
 
