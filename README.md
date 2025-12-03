@@ -104,22 +104,24 @@ Allegro-FM-application-for-materials-property/
       <img src="./result/energy_volume_Ni-nequip.png" alt="energy result" width="400"/>
     </p>
 
-### MD performance and G(r) calculation using UMA for Tobermorite.
+### G(r) calculation and MD performance using UMA for Tobermorite.
 <table>
   <tr>
     <td align="center">
       <img src="./result/rdf_analysis.png" alt="gr" width="400"/>
       <br>
-      <em>MACE Model Prediction</em>
+      <em>G(r)</em>
     </td>
     <td align="center">
       <img src="./result/md_analysis.png" alt="md" width="400"/>
       <br>
-      <em>UMA Model Prediction</em>
+      <em>MD performance</em>
     </td>
   </tr>
 </table>
-***Fine-tune Preliminary***
+
+### Finetune preliminary study
+
 | Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth | Improvement |
 | :--- | :--- | :--- | :--- | :--- |
 | **Predicted Energy (eV)** | -1001.7435 | -1070.8307 | -1061.56 | **84.50%** |
