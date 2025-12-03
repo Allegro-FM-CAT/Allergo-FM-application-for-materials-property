@@ -94,7 +94,8 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
 
 ## 5. Future work and next steps
-- calcualate remaining properties for Ni and tobermorite structures.
-- Apply  (LoRA)[https://arxiv.org/abs/2106.09685] fine tuning methodfor one or two foundation models to Ni and tobermorite.
--
--
+- Calcualate remaining properties for Ni and tobermorite structures.
+- Validate models results with DFT/experimental results and do comparative analysis between models.
+- Apply [LoRA](https://arxiv.org/abs/2106.09685) fine tuning methodfor one or two foundation models for specific tasks.
+
+
