@@ -63,17 +63,17 @@ Essentially, fine-tuning bridges the gap between the efficiency required for lar
 ## 4. Repository Architecture
 
 ```
-├── data/
-│   ├── raw/                # Inputs
-│   ├── processed/          # Working on
-│   └── benchmarks/         # DFT ground truths
-├── src/
-│   ├── MACE-test           
-│   ├── UMA-test
-│   ├── Nequip-test      
-│   └── utils/              # Data normalization and loading utilities
-├── docs/                   # Tutorials and theoretical background
-└── README.md               # Project documentation
+Allegro-FM-application-for-materials-property/
+├── data/             # input  raw datasets 
+├── result/           # output plots
+├── src/              # source code used in different models
+│ ├── MACE-test/  
+│ ├── UMA-test/ 
+│ ├── Nequip-test/ 
+├── CITATION.cff      # citation metadata
+├── LICENSE           # MIT License
+├── requirements.txt  # python dependencies
+└── README.md         # project documentation
 ```
 
 ## 5. Preliminary results
