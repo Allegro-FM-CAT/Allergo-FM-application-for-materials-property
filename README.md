@@ -5,7 +5,7 @@
 
 
 ## 1. Project Abstract 
-### What we are working on?
+### $\color{blue}{\text{What we are working on?}}$
 
 Universal Machine Learning Interatomic Potentials (**uMLIPs**) have fundamentally changed the evolution of computational materials science. It has the feature of both *ab initio* accuracy from traditional method like Density Functional Theory (**DFT**) and the efficiency required for large scale Molecular Dynamics (**MD**). 
 
@@ -15,7 +15,7 @@ Foundation Models(FMs) like **MACE-MP-0** and **Allegro-FM** are universal, pre-
 
 The practical utility of an uMLIP depends on how efficiently the model can be specialized for a target system. We propose that the PET architecture combined with parameter-efficient Low-Rank Adaptation (**LoRA**) enables rapid fine-tuning to near-quantum accuracy. In this work, we will first rigorously benchmark accuracy-efficiency trade-offs among representative foundation models and traditional DFT calculations.
 
-### Why we need?
+### $\color{blue}{\text{Why we need?}}$
 
 - Specialization for Target Systems: The text notes that the "practical utility" of a universal model depends on how efficiently it can be specialized. Fine-tuning allows you to take a general model and optimize it for a specific "target system" (in this case, Ni-based alloy systems) to ensure it understands that specific material deeply.
 
@@ -25,7 +25,8 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
 
 Essentially, fine-tuning bridges the gap between the efficiency required for large scale MD and the high accuracy needed for valid material property characterization.
 
-## 2. Project goal (What we are doing?)
+## 2. Project goal 
+### $\color{blue}{\text{What is the goal?}}$
 
 1. **Characterization:** Design and characterize Ni FCC structures and Ni-based alloy systems, analyzing the effects of Ni percentage on structural stability.
 
